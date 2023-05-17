@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel="icon" size="20x16" href="./img/icone.png">
+    <meta charset="utf-8">
+  	<meta name="author" content="Fulvio Stefanine">
+    <title>League Of Legends | T.I.</title>
+	<link rel="stylesheet" href=".\css/contato.css">
+  </head>
+  <body>
+    <header id='cabecalho'>
+		<div class="header">
+		<div class="header-component"><a href="https://br.leagueoflegends.com/pt/" target="_blank"><img src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/signup/pt_BR/19025e5bd85e0924c3c3c5b4c832aed92a935444/assets/pt_BR/assets/lol-logo-m.png"></a>
+			<div class="menu">
+				<div class="label"><a href="index.html"><span>Menu</span></div></a>
+				<div class="spacer"></div>
+				<div class="item"><a href="campeões.html"><span>Campeões</span></div></a>
+				<div class="item"><a href="itens.html"><span>Itens</span></div></a>
+				<div class="item"><a href="invocador.html"><span>Invocador</span></div></a>
+				<div class="item"><a href="contato.html"><span>Contato</span></div></a>
+
+			</div>
+    </header>
+	
+	<section>
+		<aside id="esquerda">
+			<h1 align='left'> Login </h1>
+				<form method="POST" action=".\php\login.php" class="content-border">
+					
+						<p><label for="nome">Nome de usuário:</label> 
+						<input type="text" id="user" name="user" size="50" maxlength="45" placeholder="User" /></p>
+						<p><label for="senha">Senha:</label> 
+						<input type="password" id="pass" name="pass" size="10" maxlength="10" /></p>
+						<input type="submit" value="Enviar"/>
+		
+				</form>
+		</aside>
+		<aside id="direita">
+			<h1 align='left'> Contato </h1>
+				<form method="POST" action=".\php\contato.php" class="content-border">
+					
+						<p><label for="nome">Nome de usuário:</label> 
+							<input type="text" id="nome" name="nome" size="20" placeholder="Digite seu nome" /></p>
+							<p><label for="email">Email:</label> 
+							<input type="email" id="email" name="email" placeholder="Digite seu email" /></p>
+							<p><label for="msg">Qual campeão você mais gosta?</label> 
+							<input type="text" id="campeao" name="campeao" placeholder="Campeão" />
+							<p><label for="msg">Qual rota você mais joga?</label> 
+							<input type="text" id="rota" name="rota" placeholder="Rota" />
+							<p><label for="msg">Qual seu tipo de campeão preferido?</label> 
+							<input type="text" id="tipo" name="tipo" placeholder="Tipo de campeão" /></p>
+							<input type="submit" value="Enviar" />	
+		
+				</form>
+		</aside>
+	</section>
+	
+    
+
+      <footer id='rodape'>
+      <p>Fulvio Stefanine, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>
+
